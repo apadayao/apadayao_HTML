@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <h1> "Blog Post # 1 : Five Things I Want To Buy But I'm Too Broke (August Edition)" </h1>
+    <h1> "Blog Post # 1 : Five Things I Want To Buy But I'm Too Broke (September Edition)" </h1>
     <div id = "Item 1">
         <! --- Need to change font and align pictures / paragraphs --->
         <img src = "https://cdn.shopify.com/s/files/1/1069/0552/products/T1_017_1_800x.jpg?v=1557433759" width = "420" height = "420"  alt = "Lemnos Plywood Wall Clock">
