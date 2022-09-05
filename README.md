@@ -15,15 +15,15 @@
 
 <body>
     <h1> "Blog Post # 1 : Five Things I Want To Buy But I'm Too Broke (September Edition)" </h1>
+    <a href = https://jinenstore.com/products/lemnos-plywood-clock?currency=USD&variant=13826930147383&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV93O0NDviW82dLir7BILJgoHfuZKqm0wm6pb9c5CDqkpHqNXFbVVYaArK0EALw_wcB> <strong> Lemnos Plywood Wall Clock </strong> </a>
     <div id = "Item 1">
         <img src = "https://cdn.shopify.com/s/files/1/1069/0552/products/T1_017_1_800x.jpg?v=1557433759" width = "420" height = "420"  alt = "Lemnos Plywood Wall Clock">
-        <h2> <a href = https://jinenstore.com/products/lemnos-plywood-clock?currency=USD&variant=13826930147383&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITV93O0NDviW82dLir7BILJgoHfuZKqm0wm6pb9c5CDqkpHqNXFbVVYaArK0EALw_wcB><strong> Lemnos Plywood Wall Clock </strong> </a></h2>
-        <br>
         <p> I visited a lounge recently, I saw a collection of wall clocks of famous watch brands like Rolex . I imagined if I were to have a clock that matches my desk, this would be it </p>
+        <br>
         </div>
     <div id = "Item 2">
         <img src = "https://images.stockx.com/images/One-Direction-Four-Deluxe-2XLP-Vinyl-Translucent-Red-1.jpg?fit=fill&bg=FFFFFF&w=480&h=320&fm=avif&auto=compress&dpr=1&trim=color&updated_at=1644520086&q=80" width = "420" height = "320" alt = "one Direction - FOUR">
-        <h2> <a href = https://www.amazon.com/One-Direction-Deluxe-Limited-Translucent/dp/B09TYL3HL4 > <strong> One Direction - <em> FOUR </em> Vinyl </strong> </a> </h2>
+        <h2> <a href = https://www.amazon.com/One-Direction-Deluxe-Limited-Translucent/dp/B09TYL3HL4 > <strong> One Direction - <em> FOUR </em> Vinyl </strong> </h2>
         <br>
         <p> Whenever I'm driving and I can't decide what music I want on the radio, this album is one of the first that comes to mind. Some songs I'd suggest are:
             <ul>
