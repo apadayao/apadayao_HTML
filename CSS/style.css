@@ -1,13 +1,41 @@
 @import url('https://fonts.cdnfonts.com/css/forrest-2');
 
-body {
-    background-color: #648181;
+*{
+  margin: 0;
+  padding: 0;
 }
 
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(#648181, rgba(4,9,30,0.7)), url(Images/Grad_Pic.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
 
 button {
   align-self: center;
-  background-color: #fff;
+  background-color: #FEFEFA;
   background-image: none;
   background-position: 0 90%;
   background-repeat: repeat no-repeat;
@@ -56,4 +84,5 @@ h1{
 body{
     color: #fff;
     font-family: 'Forrest', sans-serif;
+    background-color: #648181;
 }
