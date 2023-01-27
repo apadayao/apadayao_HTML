@@ -5,10 +5,12 @@
   padding: 0;
 }
 
+/* https://coolors.co/palette/c0cdcc-edc3af-f3ede7-648181-5d707f-46494c */
+
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(#648181, rgba(4,9,30,0.7)), url(Images/Grad_Pic.jpg);
+  /* background-image: linear-gradient(#f3ede7, #648181); */
   background-position: center;
   background-size: cover;
   position: relative;
@@ -35,44 +37,28 @@ nav{
 
 button {
   align-self: center;
-  background-color: #FEFEFA;
+  background-color: transparent;
   background-image: none;
   background-position: 0 90%;
-  background-repeat: repeat no-repeat;
+  background-repeat: no-repeat;
   background-size: 4px 3px;
-  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
-  border-style: solid;
-  border-width: 2px;
-  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  border: none;
   box-sizing: border-box;
   color: #41403e;
   cursor: pointer;
   display: inline-block;
-  font-family: Neucha, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 23px;
   outline: none;
-  padding: .75rem;
+  padding: 1rem;
+  overflow: hidden;
   text-decoration: none;
   transition: all 235ms ease-in-out;
-  border-bottom-left-radius: 15px 255px;
-  border-bottom-right-radius: 225px 15px;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-right: 50px;
+  margin: 1.3rem;
   font-family: 'Forrest', sans-serif;
-}
-
-button:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-  transform: translate3d(0, 2px, 0);
-}
-
-button:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
 h1{
@@ -82,7 +68,14 @@ h1{
 }
 
 body{
-    color: #fff;
+    /* color: #fff; */
     font-family: 'Forrest', sans-serif;
-    background-color: #648181;
+    /* background-color: #648181; */
+    margin: 1rem;
+}
+
+.name_logo{
+  color: black;
+  font-size: 55px;
+  font-family: 'Forrest', sans-serif;
 }
