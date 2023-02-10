@@ -10,38 +10,26 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg pt-2 pb-1 ps-4 pe-4">
+<nav class="navbar navbar-expand-lg pt-2 pb-1 ps-4 pe-4"> <!-- Header -->
     <div class="container-fluid" style="height: 100px">
         <a class="navbar-brand" style= "font-size:50px;"> Alex Padayao </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item dropdown" style = "margin: 15px">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ABOUT ME
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="Images\Alex_Padayao_Resume.pdf">Resume</a></li>
-                    <li><a class="dropdown-item" href="">Projects</a></li>
-                </ul>
+              <li class="nav-item" style="margin: 15px">
+                <a class="nav-link" href="/HTML/Resume/resume.html" style="font-family: 'Forrest', sans-serif">ABOUT ME</a>
+              </li> 
+
+              <li class="nav-item" style="margin: 15px">
+                <a class="nav-link" href="HTML/projects.html" style="font-family: 'Forrest', sans-serif">PROJECTS</a>
               </li>
-              <li class="nav-item dropdown" style = "margin: 15px">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    BLOG POSTS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="">January 2023</a></li>
-                    <li><a class="dropdown-item" href="HTML\Wishlist\Wishlist_Sept.2022.html">Archive</a></li>
-                </ul>
+
+              <li class="nav-item" style = "margin: 15px">
+                <a class="nav-link" href="HTML/blogposts.html" style="font-family: 'Forrest', sans-serif">BLOG POSTS</a>
               </li>
             
               <li class="nav-item" style = "margin: 15px">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="HTML/contact.html" style="font-family: 'Forrest', sans-serif">CONTACT</a>
               </li>
-
             </ul>
         </div>
     </div>
@@ -49,23 +37,48 @@
 
 <div class = "container-fluid ps-4 pe-5"> <!-- Information -->
     <div class = "row">
-        <div class = "col">
-            <img class = "img1 img-fluid w-100 rounded-3" src="Images/Grad_Pic.jpg" >
+        <div class = "col-6" >
+            <div class="carousel slide" data-ride="carousel" style="border: 1px solid #648181; overflow:auto; border-radius: 5px; padding:1px;"> <!-- Add styling to carosuel-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class = "d-block w-100" src="Images\Grad_Pic.jpg" alt = "First Slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="Images\thumbnail_000155010028.jpg" alt="Second slide"> <!-- Fix Image resolution -->
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="..." alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                  </a>
+            </div>
         </div>
-        <div class = "col">
-            <span class = "general">
-                <p class = date>January 31st, 2023</p>
-            <p>Hello everybody,</p>
-            <p class = "intro">My name is Alex Padayao and welcome to my own personal website! I am exited to share my journey into being "that guy" by showcasing my hobbies, interests and thoughts! This will include:
-                <ul>
-                    <li> Cooking </li>
-                    <li> Product Reviews </li>
-                    <li> Personal Reflections </li>
-                </ul>
-            <p> I'm excited to share with you what I have in store for my website! </p>
+
+        <div class = "col-6"> <!-- Make this into scrollable text box for webstite updates-->
+            <div style= "border: 1px solid #648181; overflow:auto; border-radius: 6px;padding: 5px;">
+                <p class = date style="text-align: left;">Febuary 21<sup>st</sup>, 2023 </p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatem, cumque ducimus sint omnis, dolore nulla iste nihil iusto dolorum quis possimus ad. Deleniti exercitationem veritatis ea, officia laudantium error.</p>
+                <hr style="color: #648181;">
+                <p class = date style="text-align: left;"> January 31<sup>st</sup>, 2023 </p>
+                <p> Hello everybody, my name is Alex Padayao and welcome to my own personal website! I am excited to share with you all myself and my journey, which includes showcasing my hobbies, interests and thoughts! This (hopefully) will include: </p>
+                    <ul style="position: relative;"> <!--Change indentation based on padding of previous <p>-->
+                        <li style="font-family: 'Forrest', sans-serif"> Cooking </li>
+                        <li style="font-family: 'Forrest', sans-serif"> Item Showcases </li>
+                        <li style="font-family: 'Forrest', sans-serif"> Personal Reflections </li>
+                    </ul>
+                <p>I'm excited to share with you what I have in store for my website! </p>
+            </div>
         </div>
     </div>
 </div>
+    
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
