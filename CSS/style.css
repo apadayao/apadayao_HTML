@@ -45,3 +45,11 @@ p.date{
   font-weight: 600;
 }
 
+h5.card-title{
+  font-family: 'Forrest', sans-serif;
+  font-weight: 500;
+}
+
+li{
+  font-family: 'Forrest', sans-serif;
+}
